@@ -6,10 +6,28 @@
 }
 
 header {
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 h1 {
     font-family: 'Tangerine';
     font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Tangerine';
+    font-size: 3rem;
+}
+
+h3 {
+    margin: 1rem auto 0 auto;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+main {
+    margin: 2rem;
 }
