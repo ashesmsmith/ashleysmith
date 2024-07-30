@@ -24,6 +24,18 @@ h3 {
     margin: 1rem auto 0 auto;
 }
 
+h3 a {
+    color: purple;
+    font-family: 'Crimson Text';
+    text-decoration: none;
+}
+
+h3 + p {
+    font-style: italic;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid black;
+}
+
 p {
     line-height: 1.5rem;
 }
