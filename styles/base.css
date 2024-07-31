@@ -5,32 +5,61 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
 header {
+    background-image: url('../images/mountainflowertrans.webp');
+    background-size: cover;
+    background-position: center;
+    background-color: #263440;
     padding: 1.5rem;
 }
 
-h1 {
-    font-family: 'Tangerine';
-    font-size: 5rem;
+h1, h2 {
+    letter-spacing: .25rem;
     text-align: center;
+    margin: .5rem auto;
+}
+
+h1, h3 {
+    font-family: 'Great Vibes';
+    font-weight: 100;
+}
+
+h1 {
+    color: #263440;
+    font-size: 5rem;
+    border-bottom: 1px solid white;
 }
 
 h2 {
-    font-family: 'Tangerine';
-    font-size: 3rem;
+    color: white;
+    font-weight: 200;
+}
+
+/* MAIN */
+main {
+    margin: 2rem;
+}
+
+section {
+    margin: 2rem auto;
 }
 
 h3 {
-    margin: 1rem auto 0 auto;
+    font-size: 2rem;
 }
 
-h3 a {
-    color: purple;
-    font-family: 'Crimson Text';
+h4 {
+    margin-top: 1.75rem;
+}
+
+h4 a {
+    color: #263440;
+    font-family: 'Lora';
     text-decoration: none;
 }
 
-h3 + p {
+h4 + p {
     font-style: italic;
     margin-bottom: .5rem;
     border-bottom: 1px solid black;
@@ -38,8 +67,4 @@ h3 + p {
 
 p {
     line-height: 1.5rem;
-}
-
-main {
-    margin: 2rem;
 }
