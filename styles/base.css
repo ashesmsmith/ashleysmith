@@ -5,35 +5,64 @@
     box-sizing: border-box;
 }
 
-/* HEADER */
-header {
-    background-image: url('../images/mountainflowertrans.webp');
-    background-size: cover;
-    background-position: center;
-    background-color: #222f2b;
-    padding: 1.5rem;
+/* HEADINGS */
+h1, h3, h4 {
+    font-family: 'Arapey';
+    letter-spacing: .15rem;
+    font-weight: normal;
 }
 
 h1, h2 {
     letter-spacing: .25rem;
     text-align: center;
-    margin: .5rem auto;
-}
-
-h1, h3 {
-    font-family: 'Great Vibes';
-    font-weight: 100;
+    padding: .5rem;
 }
 
 h1 {
-    color: #212E21;
-    font-size: 5rem;
+    color: white;
+    font-size: 11vw;
     border-bottom: 1px solid white;
 }
 
 h2 {
     color: white;
-    font-weight: 200;
+    font-size: 3.5vw;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 1rem auto;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #24C92A, #2B0DBF, #6C085B, #C5075D);
+    padding: 1.5rem;
+}
+
+/* NAVIGATION */
+nav {
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    background: linear-gradient(to left, #24C92A, #2B0DBF, #6C085B, #C5075D);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: linear-gradient(to right, #24C92A, #2B0DBF, #6C085B, #C5075D);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
 }
 
 /* MAIN */
@@ -43,27 +72,38 @@ main {
 
 section {
     margin: 2.5rem auto;
+    padding: 1.5rem;
+    box-shadow: -20px 0 20px -20px #6C085B;
 }
 
-h3 {
-    background-color: #67856F;
-    font-size: 2rem;
-    margin-bottom: .5rem;
-    padding: .5rem .25rem;
-    border-bottom: 1px solid #212E21;
-    border-radius: 5px;
+p {
+    line-height: 1.5rem;
 }
 
-h4 a {
-    color: #212E21;
-    font-family: 'Lora';
-    text-decoration: none;
+h3 span {
+    background: linear-gradient(to bottom right, #24C92A, #2B0DBF, #6C085B, #C5075D);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
 }
 
 h4 + p {
     font-style: italic;
 }
 
-p {
-    line-height: 1.5rem;
+h4 a, p a {
+    color: #6C085B;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h4 a:hover, p a:hover {
+    color: #C5075D;
+    font-size: 1.7rem;
+}
+
+ul {
+    margin: 1rem;
+    list-style: inside;
 }
