@@ -35,7 +35,7 @@ h3 {
     font-size: 2rem;
     font-weight: 500;
     margin: 1rem auto;
-    border-bottom: 2px solid #24C92A;
+    border-bottom: 1px solid #24C92A;
 }
 
 /* HEADER */
@@ -74,9 +74,24 @@ main {
 }
 
 section {
+    background-color: white;
     margin: 2.5rem auto;
     padding: 1.5rem;
     box-shadow: -20px 0 20px -20px #6C085B;
+}
+
+.gradient {
+    position: relative;
+}
+
+.gradient::before {
+    content: '';
+    position: absolute;
+    inset: 5px; /* control the spread */
+    transform: translate(-10px, 10px); /* control the h and v offsets */
+    z-index: -1; /* place element in back */
+    background: linear-gradient(to bottom right,#24C92A, #2B0DBF, #6C085B, #C5075D);
+    filter: blur(15px); /* blur */
 }
 
 p {
