@@ -31,16 +31,20 @@ h2 {
 }
 
 h3 {
-    color: #2B0DBF;
+    color: #290628;
     font-size: 2rem;
     font-weight: 500;
     margin: 1rem auto;
-    border-bottom: 1px solid #24C92A;
+    border-bottom: 1px solid #8D818C;
 }
 
 /* HEADER */
 header {
-    background: linear-gradient(to right, #24C92A, #2B0DBF, #6C085B, #C5075D);
+    /* background-image: url(../images/background.png);
+    background-position: center; */
+    /* background: linear-gradient(to bottom right, #24C92A, #2B0DBF, #6C085B, #C5075D); */
+    
+    background: #290628;
     padding: 1.5rem;
 }
 
@@ -53,7 +57,7 @@ nav {
 }
 
 nav a {
-    background: linear-gradient(to left, #24C92A, #2B0DBF, #6C085B, #C5075D);
+    background: linear-gradient(to left, #290628, #8D818C);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.25rem;
@@ -62,7 +66,7 @@ nav a {
 }
 
 nav a:hover {
-    background: linear-gradient(to right, #24C92A, #2B0DBF, #6C085B, #C5075D);
+    background: linear-gradient(to right, #290628, #8D818C);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.7rem;
@@ -77,21 +81,7 @@ section {
     background-color: white;
     margin: 2.5rem auto;
     padding: 1.5rem;
-    box-shadow: -20px 0 20px -20px #6C085B;
-}
-
-.gradient {
-    position: relative;
-}
-
-.gradient::before {
-    content: '';
-    position: absolute;
-    inset: 5px; /* control the spread */
-    transform: translate(-10px, 10px); /* control the h and v offsets */
-    z-index: -1; /* place element in back */
-    background: linear-gradient(to bottom right,#24C92A, #2B0DBF, #6C085B, #C5075D);
-    filter: blur(15px); /* blur */
+    box-shadow: -20px 0 20px -20px #290628;
 }
 
 p {
@@ -99,7 +89,7 @@ p {
 }
 
 h3 span {
-    background: linear-gradient(to bottom right, #24C92A, #2B0DBF, #6C085B, #C5075D);
+    background: linear-gradient(to bottom right, #290628, #8D818C, #2A343C);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
@@ -110,14 +100,14 @@ h4 + p {
 }
 
 h4 a, p a {
-    color: #6C085B;
+    color: #2A343C;
     font-size: 1.3rem;
     font-weight: 600;
     text-decoration: none;
 }
 
 h4 a:hover, p a:hover {
-    color: #C5075D;
+    color: #290628;
     font-size: 1.7rem;
 }
 
@@ -133,7 +123,7 @@ img {
 
 /* FOOTER */
 footer {
-    background-color: #6C085B;
+    background-color: #99D5C9;
     color: white;
     text-align: center;
     padding: 1rem;
