@@ -20,7 +20,8 @@ h1, h2 {
 
 h1 {
     color: white;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    letter-spacing: .25rem;
     border-bottom: 1px solid white;
 }
 
@@ -39,8 +40,8 @@ h3 {
 }
 
 .fancy {
-    font-family: 'Nothing You Could Do';
-    font-size: 4rem;
+    font-family: 'Allura';
+    font-size: 5rem;
 }
 
 /* HEADER */
