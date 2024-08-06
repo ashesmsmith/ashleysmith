@@ -1,0 +1,10 @@
+@media (min-width:700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section {
+        box-shadow: 25px 0 20px -20px #2A343C, -25px 0 20px -20px #2A343C;
+    }
+}

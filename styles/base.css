@@ -39,11 +39,7 @@ h3 {
 }
 
 /* HEADER */
-header {
-    /* background-image: url(../images/background.png);
-    background-position: center; */
-    /* background: linear-gradient(to bottom right, #24C92A, #2B0DBF, #6C085B, #C5075D); */
-    
+header {    
     background: #290628;
     padding: 1.5rem;
 }
@@ -81,7 +77,7 @@ section {
     background-color: white;
     margin: 2.5rem auto;
     padding: 1.5rem;
-    box-shadow: -20px 0 20px -20px #290628;
+    box-shadow: -20px 0 20px -20px #2A343C;
 }
 
 p {
